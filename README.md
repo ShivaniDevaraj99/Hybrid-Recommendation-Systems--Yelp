@@ -1,6 +1,8 @@
 # 🔍 Personalized Yelp Rating Prediction using LSH and Hybrid Recommendation Systems
 
-This repository contains code for building a hybrid recommendation system using PySpark RDDs and XGBoost. The project is part of the DSCI 553: Foundations and Applications of Data Mining course, and leverages a subset of the Yelp dataset to generate personalized predictions and identify similar businesses.
+This repository contains the implementation of a hybrid recommendation system that combines collaborative filtering (CF), model-based learning (XGBoost), and Locality Sensitive Hashing (LSH) using PySpark RDDs. The system is designed to generate personalized user-business rating predictions and identify similar businesses based on user interaction patterns.
+
+The project works with a preprocessed subset of the Yelp dataset, where user reviews, business ratings, and metadata are used to build scalable, efficient, and accurate recommender models.
 
 ---
 
@@ -28,7 +30,6 @@ The system is designed to tackle core problems in large-scale recommender system
 ---
 
 ## 📂 File Structure
-- Data
-- Output
+- output_final.csv
 - Recommendation_system.ipynb
 
